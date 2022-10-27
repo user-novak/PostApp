@@ -1,6 +1,6 @@
 <x-layouts.app
-    :title="$post->title"
-    :meta-description="$post->body"
+    title="show post"
+    meta-description="vista de un post"
 >
     <h1 class="my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500">{{ $post->title }}</h1>
     <div class="flex flex-col max-w-xl px-8 py-4 mx-auto bg-white rounded shadow h-96 dark:bg-slate-800">

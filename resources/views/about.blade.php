@@ -1,6 +1,6 @@
 <x-layouts.app
     title="About"
-    meta-description="About meta description"
+    meta-description="Text about de app"
 >
-    <h1 class="my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500">About</h1>
+    <h1 class="h1">About</h1>
 </x-layouts.app>

@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Contact"
-    meta-description="Contact meta description"
+    meta-description="Info of developers"
 >
-    <h1 class="my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500">Contact</h1>
+    <h1 class="h1">Contact</h1>
     <h2 class="text">hola</h2>
 </x-layouts.app>
