@@ -1,0 +1,15 @@
+.nav{
+    @apply w-screen overflow-scroll bg-white border-b dark:bg-black/40 border-slate-900/10 lg:px-8 dark:border-slate-300/10 lg:mx-0;
+}
+.status{
+    @apply max-w-screen-xl px-3 py-2 mx-auto font-bold text-white sm:px-6 lg:px-8 bg-emerald-500 dark:bg-emerald-700;
+}
+
+.form{
+    @apply max-w-xl px-8 py-4 mx-auto bg-white rounded shadow dark:bg-slate-800;
+}
+
+.text{
+    background-color: green;
+    color: azure;
+}
