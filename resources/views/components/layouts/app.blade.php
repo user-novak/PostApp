@@ -8,6 +8,7 @@
     <title>PostApp - {{ $title ?? 'BookRegisterApp' }}</title>
     <meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}" />
     @vite(['resources/js/app.js','resources/css/styles.css'])
+    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon" />
 </head>
 <body class="antialiased bg-slate-100 dark:bg-slate-900">
 <x-layouts.navigation />

@@ -13,7 +13,53 @@
     @apply my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500;
 }
 
-.text{
-    background-color: green;
-    color: azure;
+.siteTitle {
+    display: block;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 0;
+    color: whitesmoke;
 }
+
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card {
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 4px solid #b0215e;
+    margin-bottom: 20px;
+}
+
+.inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+.subtitle {
+    color: #b0215e;
+    font-weight: 900;
+    text-align: center;
+}
+
