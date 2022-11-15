@@ -2,9 +2,10 @@
 
 namespace App\Http\Requests;
 
+use Illuminate\Validation\Rules;
 use Illuminate\Foundation\Http\FormRequest;
 
-class SavePostRequest extends FormRequest
+class RegisterRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -21,12 +22,13 @@ class SavePostRequest extends FormRequest
      *
      * @return array<string, mixed>
      */
-//    las reglas de validacion para crear o editar posts
+//  valida las reglas para registrar un nuevo usuario
     public function rules()
     {
         return [
-            'title' => ['required', 'min:4'],
-            'body' => ['required'],
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ];
     }
 }

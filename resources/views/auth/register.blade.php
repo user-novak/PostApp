@@ -17,6 +17,7 @@
                        name="name"
                        type="text"
                        value="{{ old('name') }}"
+                       autocomplete="off"
                 >
                 @error('name')
                 <small class="font-bold text-red-500/80">{{ $message }}</small>
@@ -30,6 +31,7 @@
                        name="email"
                        type="email"
                        value="{{ old('email') }}"
+                       autocomplete="off"
                 >
                 @error('email')
                 <small class="font-bold text-red-500/80">{{ $message }}</small>

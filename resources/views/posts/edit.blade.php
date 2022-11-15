@@ -2,10 +2,11 @@
     title="edit post"
     meta-description="formulario para editar un post del blog"
 >
-    <h1 class="my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500">Edit form</h1>
+    <h1 class="my-4 font-serif text-3xl text-center text-sky-600 dark:text-sky-500">Edit Post</h1>
 
     <form class="form" action="{{ route('posts.update', $post) }}" method="POST">
-        @csrf @method('PATCH')
+        @csrf
+        @method('PATCH')
 
         @include('posts.form-fields')
 
